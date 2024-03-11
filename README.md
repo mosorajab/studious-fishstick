@@ -84,7 +84,8 @@ Facial Detection and Recognition -
 
 Computer Vision Tools:
 
-_Azure Cognitive Services - Umbrella for what follows_
+_Azure Cognitive Services - Umbrella for what follows_. 
+
 Computer Vision Service - 
 - Pretrained ML Model
 - Can recognize over 10,000 objects 
@@ -140,5 +141,19 @@ Core Concepts:
 3. Intents - The purpose or goal expressed by the user (eg. TodayHoursOpen )
 
 ### Conversational Ai Workloads: 
+Conversational AI Workloads refer to the implementation of AI-powered chatbots and virtual assistants using Azure services. These workloads enable natural language understanding, speech recognition, and text-to-speech capabilities to create interactive and engaging user experiences. Key Azure services used for Conversational AI Workloads include:
 
+1. **Azure Bot Service**: A platform for building, deploying, and managing chatbots. It provides an integrated environment to develop, test, and publish bots across multiple channels like Microsoft Teams, Slack, and Facebook Messenger.
+2. **Language Understanding (LUIS)**: A machine learning-based service that helps applications understand natural language input by extracting intents and entities from user queries.
+3. **QnA Maker**: A cloud-based service that allows you to create a knowledge base of questions and answers, which can be used by chatbots to provide relevant responses to user queries.
+4. **Speech Services**: A set of APIs that enable speech-to-text, text-to-speech, and speech translation capabilities in applications.
 ### Features of Generative AI: 
+Generative AI refers to AI models that can generate new content, such as text, images, or music, based on the input data and learned patterns. In the context of Azure, the primary service for Generative AI is Azure Machine Learning, which allows you to train, deploy, and manage custom AI models. Key features of Generative AI include:
+
+1. **Content Generation**: Generative AI models can create new content, such as text, images, or music, by learning patterns from existing data and generating similar outputs.
+2. **Data Augmentation**: Generative AI can be used to augment existing datasets by generating new samples, which can help improve the performance of machine learning models.
+3. **Style Transfer**: Generative AI models can learn the style of one dataset and apply it to another, enabling the creation of new content with a specific style or aesthetic.
+4. **Anomaly Detection**: Generative AI models can be used to identify unusual patterns or outliers in data, which can be useful for detecting fraud, network intrusions, or other anomalies.
+5. **Synthetic Data Generation**: Generative AI can create synthetic data that mimics the properties of real data, which can be used for testing, privacy-preserving data sharing, or other purposes.
+
+Some popular generative AI models include Generative Adversarial Networks (GANs), Variational Autoencoders (VAEs), and Transformer-based models like OpenAI's GPT-3.
